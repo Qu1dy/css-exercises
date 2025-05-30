@@ -6,14 +6,19 @@ body {
 .card {
   width: 400px;
   background: #fff;
+<<<<<<< Updated upstream
   margin: 8px auto;
   border: 1px solid white;
+=======
+  margin: 16px auto;
+>>>>>>> Stashed changes
   padding: 8px;
 }
 
 .title, .content, .button-container
 {
   background: #e3f4ff;
+<<<<<<< Updated upstream
   margin: 10px 5px 0px;
 }
 
@@ -30,13 +35,35 @@ body {
 .button-container
 {
   padding: 16px;
+=======
+  padding: 8px;
+  font-size: 16px;
+}
+
+.content {
+  background: #e3f4ff;
+  padding: 8px;  
+  margin-bottom: 8px;
+}
+
+.button-container {
+  background: #e3f4ff;
+  padding: 8px;
+>>>>>>> Stashed changes
   text-align: center;
 }
 
 button {
+<<<<<<< Updated upstream
   display:block;
   margin-left: 120px;
   padding: 10px;
+=======
+  display: block;
+  /*Top/bottom margins will be 0, while left/right will be auto (set to middle of page)*/
+  margin: 0 auto;
+>>>>>>> Stashed changes
   background: white;
   border: 1px solid #eee;
+  padding: 8px 24px;
 }
