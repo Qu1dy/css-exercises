@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -51,6 +54,12 @@ a {
 
 .content
 {
-  margin-top: 200px;
   text-align: center;
+}
+
+.footer {
+  background-color: rgb(211, 211, 211);
+  display: flex;
+  justify-content: space-between;
+
 }
