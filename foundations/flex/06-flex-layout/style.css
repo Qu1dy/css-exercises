@@ -46,3 +46,9 @@ a {
   margin: 0;
   padding: 16px;
 }
+
+.content
+{
+  margin-top: 200px;
+  text-align: center;
+}
