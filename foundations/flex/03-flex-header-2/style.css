@@ -15,17 +15,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 8px;
 }
 
 .left, .right, .links {
   display: flex;
-  gap: 8px;
+  gap: 16px;
 }
 
-.left, .right
-{
-  margin: 8px;
-}
 
 
 
