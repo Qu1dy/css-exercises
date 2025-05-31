@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -7,18 +8,20 @@ img {
   height: 100px;
 }
 
-.container
-{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 .plant-container
 {
+  margin-top: 32px;
   display: flex;
+  justify-content: center;
   gap: 52px;
 }
+
+.plant-container > img
+{
+  max-width: 200px;
+}
+
 
 
 
