@@ -6,7 +6,7 @@
 .container {
   text-align: center;
   display: grid;
-  grid-template: 1fr 1fr 12fr 1fr / 1fr 4fr;
+  grid-template: 1fr 1xfr 12fr 1fr / 1fr 4fr;
   gap: 0.3rem;
 }
 
@@ -28,7 +28,7 @@
 }
 
 
-.menu ul {
+ul {
   list-style: none;
   display: grid;
   grid-auto-flow: column;
