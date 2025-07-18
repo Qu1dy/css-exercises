@@ -58,7 +58,7 @@ ul {
 .sidebar .photo {
   background-color: white;
   color: black;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: normal;
   border-radius: 10px;
 }
@@ -67,7 +67,7 @@ ul {
 .sidebar .side-content {
   background-color: white;
   color: black;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: normal;
 }
 
