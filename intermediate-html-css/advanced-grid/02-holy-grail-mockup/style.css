@@ -88,6 +88,9 @@ ul {
 .article {
   background-color: #bccbde;
   grid-row: span 2;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 295px);
+  gap: 1rem;
 }
 
 .article p {
