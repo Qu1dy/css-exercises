@@ -48,6 +48,13 @@ ul {
   gap: 3rem;
 }
 
+
+.sidebar div {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
 .sidebar .photo {
   background-color: white;
   color: black;
